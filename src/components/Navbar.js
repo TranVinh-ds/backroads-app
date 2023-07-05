@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.svg';
 import { pageLinks, socialLinks } from '../data';
 
 const Navbar = () => {
@@ -7,7 +6,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} className="nav-logo" alt="backroads" />
+          <h1>
+            Vinh <span>Tran</span>
+          </h1>
           <button type="button" className="nav-toggle" id="nav-toggle">
             <i className="fas fa-bars"></i>
           </button>

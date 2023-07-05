@@ -2,6 +2,8 @@ import tour1 from './images/tour-1.jpeg';
 import tour2 from './images/tour-2.jpeg';
 import tour3 from './images/tour-3.jpeg';
 import tour4 from './images/tour-4.jpeg';
+import tour5 from './images/night-market.jpg';
+import tour6 from './images/beach.jpg';
 
 export const pageLinks = [
   {
@@ -105,5 +107,25 @@ export const tours = [
     location: 'kenya',
     duration: 22,
     cost: 'from $3300',
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: 'april 5th, 2019',
+    title: 'feature of night market',
+    info: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+    location: 'macau',
+    duration: 22,
+    cost: 'from $2200',
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: 'November 5th, 2019',
+    title: 'kenya highlights',
+    info: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+    location: 'thailand',
+    duration: 5,
+    cost: 'from $1300',
   },
 ];
